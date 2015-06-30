@@ -16,7 +16,8 @@ function validation() {
 		field.style.borderColor = "red";
 	} else {
 		console.log("Text typed is a number");
-		window.alert("It is a number!")
+		window.alert("It is a number!");
+		field.style.borderColor = "black";
 	}
 
 	console.log(field.value);
