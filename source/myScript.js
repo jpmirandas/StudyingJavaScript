@@ -15,9 +15,9 @@ function validation() {
 		console.log("Text typed is not a number");
 		field.style.borderColor = "red";
 	} else {
+		field.style.borderColor = "black";
 		console.log("Text typed is a number");
 		window.alert("It is a number!");
-		field.style.borderColor = "black";
 	}
 
 	console.log(field.value);
