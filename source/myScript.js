@@ -19,5 +19,5 @@ function validation() {
 		window.alert("It is a number!")
 	}
 
-	console.log(field);
+	console.log(field.value);
 }
